@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    <div class="parent-container">
+        <div class="child-container">
+            <br>
+            <h1>Rock Paper Scissors</h1>
+            <br>
+    <label>Make Your Move : </label><br>
+    <select id="choose" onchange="myFunction()">
+        <option>-</option>
+        <option value="Rock">Rock</option>
+        <option value="Paper">Paper</option>
+        <option value="Scissors">Scissors</option>
+    </select>
+    <br><br>
+    <div class="first-container">
+        <div class="second-container">
+            <img id="container2" src=""/>
+        </div>
+
+        <div class="third-container">
+            <h2>VS</h2>
+        </div>
+
+        <div class="fourth-container">
+            <img id="container4" src=""/>
+        </div>
+    </div>
+     <h3 id="playerChoose"></h3>
+    <h3 id="demo"></h3>
+    <h4 id="conditions"></h4>
+    <br>
+    <div class="last-container">
+        <h2>Leaderboard</h2>
+        <p id="playerScore">Player : 0 </p>
+        <p id="computerScore">Computer : 0 </p>
+    </div>
+    <br><br>
+    </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
